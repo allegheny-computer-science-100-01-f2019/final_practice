@@ -32,7 +32,7 @@ deciduous, the last is not. That's all---the method just declares
 three variables and  doesn't do anything else.
 
 
-``` diff
+``` diff Sample Answer:
 public void main() {
    Tree oak = new Tree ("oak", true);
    Tree elm = new Tree ("elm", true);
@@ -51,7 +51,7 @@ for (int j = 1; j < 10; j++) {
 }
 ```
 
-``` diff
+``` diff Sample Answer:
 count = 10
 ```
 
@@ -62,7 +62,7 @@ for (int j = 0; j <= 10; j++) {
 }
 ```
 
-``` diff
+``` diff Sample Answer:
 count = 11
 ```
 
@@ -75,7 +75,7 @@ while (value <= 5) {
 }
 ```
 
-``` diff
+``` diff Sample Answer:
 count = 15
 ```
 
@@ -86,7 +86,7 @@ final value should be stored in an `int` variable named `sum`
 which you must declare and initialize. Use some kind of loop structure;
 don't simply type in all of the odd integers in a great big sum expression!
 
-``` diff
+``` diff Sample Answer:
 int sum = 0;
 int count = 0;
 while(count < 20) {
@@ -102,7 +102,7 @@ integer values  and to fill it
 with the first 1000 consecutive integers, starting with 0.
 
 
-``` diff
+``` diff Sample Answer:
 ArrayList<Integer> list = new ArrayList<Integer>();
 for(int i = 0; i < 100; i++) {
    list.add(i);
@@ -118,7 +118,7 @@ Write the Java statements needed to fill `nums` with the values of
 the first 25 positive multiples of 3, that is, 3, 6, 9, ...
 
 
-``` diff
+``` diff Sample Answer:
 int count = 25;
 int num = 3;
 while(count > 0) {
@@ -139,7 +139,7 @@ for(int i = 100; i > 0; i--) {
 }
 ```
 
-``` diff
+``` diff Sample Answer:
 int i = 100;
 do {
    System.out.println(i);
@@ -177,7 +177,7 @@ What is the output of the following code segment:
 ```
 
 
-``` diff
+``` diff Sample Answer:
 Allegheny College
 The College of Wooster
 Albion College
@@ -190,7 +190,7 @@ Suppose a class contains an instance variable declared as follows:
 
 Assume the value of `visible` has been assigned elsewhere in the program. Write a method that changes the value of `visible` to its opposite (so if `visible` is true, it will be set to false and vice-versa). Nothing is returned.
 
-``` diff
+``` diff Sample Answer:
 public void setVisible(boolean value) {
    if(visible) {
       visible = false;
@@ -203,7 +203,7 @@ public void setVisible(boolean value) {
 ### Question 9
 *True* or *False*. If an array named list has size 10, its final element is denoted by list.get(9).
 
-``` diff
+``` diff Sample Answer:
 True
 ```
 
